@@ -3302,9 +3302,9 @@ background-attachment: fixed;
 #permissions-modal-wrapper .role-side,
 #permissions-modal-wrapper .perm-side {
   background: transparent;
-theme-light, .theme-dark, .theme-amoled {
-background-primary: rgba(var(--transparencycolor), .2);
-background-secondary: rgba(var(--transparencycolor), .3);
+.theme-light, .theme-dark, .theme-amoled {
+--background-primary: rgba(var(--transparencycolor), .2);
+--background-secondary: rgba(var(--transparencycolor), .3);
 }
 }
 
