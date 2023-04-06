@@ -38,8 +38,8 @@
   --greyple: rgb(151, 168, 180);
   --blurple-sheer: rgba(114, 137, 218, 0.267);
   --greyple-sheer: rgba(151, 168, 180, 0.267);
-  --black-hole: url(https://images.all-free-download.com/images/graphicthumb/starry_night_192398.jpg);
-  --stars: url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png);
+  --black-hole: url(https://raw.githubusercontent.com/nicoth-in/Dark-Space-Theme/master/img/background.gif);
+  --stars: url(https://raw.githubusercontent.com/nicoth-in/Dark-Space-Theme/master/img/background.gif);
   --roundness: 50px;
   --uno: rgb(25, 25, 27);
   /* primary background color */
@@ -246,7 +246,7 @@
 .wrapper-2NJDcI,
 .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ, 
 .containerDefault-YUSmu3.selected-2TbFuo:hover .content-1gYQeQ {
-  background: var(--veil) var(--stars) top left;
+  background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
   color: var(--blurple)
 }
@@ -402,7 +402,7 @@
 .privateChannels-oVe7HL .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
 a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  background: var(--veil) var(--stars) top left;
+  background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
@@ -700,7 +700,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 #app-mount .gameUpdates-3Ts_5W {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--veil) var(--stars) top left fixed;
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--veil) var(--stars) top left fixed !important;
 }
 
 
@@ -889,7 +889,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   bottom: 0;
   height: 55px;
   width: 101.5%;
-  background: var(--veil) var(--stars) top left;
+  background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
@@ -910,7 +910,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 .modalTextContainer-1FUO2W {
-  background: var(--uno) var(--stars) top left fixed;
+  background: var(--uno) var(--stars) top left fixed !important;
 }
 
 .footer-GXWBBp {
@@ -919,7 +919,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 #app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
-  background: linear-gradient(var(--dnd-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
+  background: linear-gradient(var(--dnd-sheer), transparent 80%),var(--uno) var(--stars) top left fixed !important;
   border-color: var(--tres)
 }
 
@@ -1009,7 +1009,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 #app-mount .chat-2ZfjoI .hasMore-3e72_v {
-  background: var(--quatro) var(--stars) top left;
+  background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
   border: 1px solid var(--quatro);
   color: var(--blurple);
@@ -1067,7 +1067,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   font-weight: bold;
   text-shadow: 1px 2px 1px rgb(0, 0, 0);
   font-size: 15px;
-  background: var(--dnd-sheer) var(--stars) top left fixed;
+  background: var(--dnd-sheer) var(--stars) top left fixed !important;
   z-index: 500;
   pointer-events: none;
   animation: lightTheme 1s cubic-bezier(.4, 0, 0, 1.3) forwards;
@@ -1132,7 +1132,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 #app-mount .member-3W1lQa.popout-open:hover,
 #app-mount .codeRedemptionRedirect-3SBiCp,
 #app-mount .elevationHigh-28Pty4 {
-  background: var(--veil) var(--stars) top left;
+  background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
@@ -1300,7 +1300,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 .profileBannerPreview-3_l0Wd {
-  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
+  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed !important;
 }
 
 #app-mount .splashArt-3I5Qmp {
@@ -1326,7 +1326,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 .emptyContainer-poti7J,
 .item-2idW98,
 .settingCard-xZSDjS.active-3EK-ed{
-  background: var(--veil) var(--stars) top left;
+  background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
@@ -1373,7 +1373,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 .previewContainer-1SS3uO,
 .enableContainer-6E-puu,
 .iconWrapper-3plkqh {
-  background: var(--sheer) var(--stars) top left;
+  background: var(--sheer) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
@@ -1506,7 +1506,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 #app-mount .guildSubscription-2bT8-B,
 #app-mount .tier-3H4BXk,
 #app-mount .guild-Hq0WWA {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
+  background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed !important;
 }
 
 .checkmarkIcon-2YUUhA {
@@ -1809,7 +1809,7 @@ svg[name="Activity"] {
 
 /* VIII. Menus */
   /* A. Server Menu */
-#app-mount .menu-1QACrS {
+/* #app-mount .menu-1QACrS {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border-radius: 0;
@@ -1849,10 +1849,10 @@ svg[name="Activity"] {
   border: 1px solid var(--blurple);
   border-radius: 0;
   animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
-}
+} */
 
   /* B. User Status */
-  .layer-2aCOJ3[style*="; bottom: 5"][id*="popout_"] {
+  /* .layer-2aCOJ3[style*="; bottom: 5"][id*="popout_"] {
   height: fit-content !important;
   width: fit-content !important;
   animation: popoutanim-status 300ms cubic-bezier(.4, 0, 0, 1);
@@ -1971,10 +1971,10 @@ svg[name="Activity"] {
 
 #status-picker .item-1OdjEX:not(:nth-child(7)):hover {
   transform: scale(1.3);
-}
+} */
 
   /* C. Context Menu */
-#app-mount .contextMenu-HLZMGh,
+/* #app-mount .contextMenu-HLZMGh,
 #app-mount .container-3cGP6G {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
@@ -1992,7 +1992,7 @@ svg[name="Activity"] {
 }
 
   /* D. Dropdown Menus */
-#app-mount .select-1YfRS9 .Select-menu-outer,
+/* #app-mount .select-1YfRS9 .Select-menu-outer,
 #app-mount .popout-2sKjHu,
 #app-mount .popoutList-10IFAa,
 #app-mount .css-n57xjs-menu,
@@ -2028,12 +2028,12 @@ svg[name="Activity"] {
 .option-2eIyOn:focus, 
 .option-2eIyOn:hover {
   background: var(--sheer);
-}
+} */ */
  
 /* IX. Popouts */
 
   /* A. User Popout */
-#app-mount .headerNormal-1mX3KY,
+/* #app-mount .headerNormal-1mX3KY,
 #app-mount .body-2wLx-E, 
 #app-mount .footer-1fjuF6,
 #app-mount .headerTop-2cWpdB,
@@ -2158,10 +2158,10 @@ svg[name="Activity"] {
 
 #app-mount .headerStreaming-2FjmGz {
   background: linear-gradient(var(--streaming-sheer), transparent 80%), var(--stars) top left fixed;
-}
+} */
 
   /* B. Message Popout */
-.layer-2aCOJ3[id*="popout"][style*="absolute; right:"] {
+/* .layer-2aCOJ3[id*="popout"][style*="absolute; right:"] {
   transform-origin: 50% -10%;
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 }
@@ -2225,14 +2225,14 @@ svg[name="Activity"] {
 
 #app-mount .jumpButton-1ZwI_j {
   background-color: var(--veil);
-}
+} */
 
   /* C. Search Popout & Results */
 #app-mount .container-2McqkF,
 .searchResultsWrap-5RVOkx,
 .searchResult-O9NDji.expanded-ovgtuV,
 .searchHeader-1r_ZSh {
-  background: var(--quatro) var(--stars) top left fixed;
+  background: var(--quatro) var(--stars) top left fixed !important;
 }
 
 #app-mount .option-2KkUJO:after {
@@ -2375,7 +2375,7 @@ svg[name="Activity"] {
 }
 
   /* E. Tooltips & Notices */
-.tooltip-14MtrL {
+/* .tooltip-14MtrL {
   border-radius: 5px !important;
 }
 
@@ -2460,7 +2460,7 @@ svg[name="Activity"] {
 .channelNotices-41mJbj .channelNotice-tO6Tus.guildMFAWarning-3GEzs8 {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--stars) top left fixed;
   border-radius: 10px 10px 0 0;
-}
+} */
 
 /* tropix's fade in tooltip anim */
     
@@ -2481,7 +2481,7 @@ svg[name="Activity"] {
 }
 
   /* F. Autocomplete & Everyone Popout */
-#app-mount .autocomplete-3NRXG8,
+/* #app-mount .autocomplete-3NRXG8,
 #app-mount .everyonePopout-nEbJY3 {
   background: linear-gradient(transparent, var(--blurple-sheer) 80%),var(--uno) var(--stars) top left !important;
   background-attachment: fixed;
@@ -2499,7 +2499,7 @@ svg[name="Activity"] {
 #app-mount .selectorSelected-1_M1WV {
   background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
-}
+} */
 
   /* G. Gift Nitro and Gif Picker */
 #app-mount .option-1l2vXE,
@@ -2998,7 +2998,7 @@ background-attachment: fixed;
 
   /* G. Gift Modal */
 #app-mount .modal-2RrUKJ {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed !important;
   border-radius: 5px;
 }
 
@@ -3016,7 +3016,7 @@ background-attachment: fixed;
 }
 
 #app-mount .quickswitcher-pKcM9U {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed !important;
   border-radius: 5px;
 }
 
@@ -3026,7 +3026,7 @@ background-attachment: fixed;
 
   /* I. BetterDiscord Error Modal */
 .bd-modal-wrapper .bd-modal-inner {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed !important;
 }
 
 .bd-modal-wrapper .header,
@@ -3302,7 +3302,7 @@ background-attachment: fixed;
 #permissions-modal-wrapper .role-side,
 #permissions-modal-wrapper .perm-side {
   background: transparent;
-.theme-light, .theme-dark, .theme-amoled {
+	.theme-light, .theme-dark, .theme-amoled {
   background-primary: rgba(var(--transparencycolor), .2);
   background-secondary: rgba(var(--transparencycolor), .3);
 }
