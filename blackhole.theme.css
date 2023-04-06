@@ -3304,7 +3304,7 @@ background-attachment: fixed;
   background: transparent;
 	
 }
-.theme-light, .theme-dark, .theme-amoled {
+theme-light, .theme-dark, .theme-amoled {
   background-primary: rgba(var(--transparencycolor), .2);
   background-secondary: rgba(var(--transparencycolor), .3);
 }
